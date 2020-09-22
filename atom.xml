@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://whitebear.GitHub.io</id>
+    <id>https://wh1tebear.github.io</id>
     <title>whitebear</title>
-    <updated>2020-09-22T02:35:40.631Z</updated>
+    <updated>2020-09-22T02:36:59.996Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://whitebear.GitHub.io"/>
-    <link rel="self" href="https://whitebear.GitHub.io/atom.xml"/>
-    <logo>https://whitebear.GitHub.io/images/avatar.png</logo>
-    <icon>https://whitebear.GitHub.io/favicon.ico</icon>
+    <link rel="alternate" href="https://wh1tebear.github.io"/>
+    <link rel="self" href="https://wh1tebear.github.io/atom.xml"/>
+    <logo>https://wh1tebear.github.io/images/avatar.png</logo>
+    <icon>https://wh1tebear.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, whitebear</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://whitebear.GitHub.io/post/hello-gridea/</id>
-        <link href="https://whitebear.GitHub.io/post/hello-gridea/">
+        <id>https://wh1tebear.github.io/post/hello-gridea/</id>
+        <link href="https://wh1tebear.github.io/post/hello-gridea/">
         </link>
         <updated>2020-09-21T16:56:53.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
