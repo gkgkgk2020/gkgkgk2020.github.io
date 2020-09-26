@@ -1823,11 +1823,11 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #F4F4F4!important;
+          background: #ffffff!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #FFFFFF!important;
+          background: #ffffff!important;
         }
         
         .gt-bg-content-color-first {
@@ -1839,19 +1839,19 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-bg-accent-color-first {
-          background: #6AC5EF!important;
+          background: #f5bab2!important;
         }
         
         .gt-bg-accent-color-second {
-          background: RGBA(106,197,239,0.2)!important;
+          background: RGBA(245,186,178,0.14)!important;
         }
         
         .gt-c-theme-color-first {
-          color: #F4F4F4!important;
+          color: #ffffff!important;
         }
         
         .gt-c-theme-color-second {
-          color: #FFFFFF!important;
+          color: #ffffff!important;
         }
         
         .gt-c-content-color-first {
@@ -1863,11 +1863,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-accent-color-first {
-          color: #6AC5EF!important;
+          color: #f5bab2!important;
         }
         
         .gt-c-accent-color-second {
-          color: RGBA(106,197,239,0.2)!important;
+          color: RGBA(245,186,178,0.14)!important;
         }
         
         body {
@@ -1875,40 +1875,40 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         a {
-          color: #6AC5EF!important;
+          color: #f5bab2!important;
         }
         
         .post-content h1 {
           display: inline-block;
           color: #5f6169!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(106,197,239,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
           color: #5f6169!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(106,197,239,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
         }
         
         .gt-a-link {
           color: #5f6169!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(106,197,239,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
         }
         
         .gt-post-content a {
-          color: #6AC5EF!important;
+          color: #f5bab2!important;
         }
         
         .gt-post-content blockquote {
-          background: RGBA(106,197,239,0.2)!important;
-          border-color: #6AC5EF!important;
+          background: RGBA(245,186,178,0.14)!important;
+          border-color: #f5bab2!important;
         }
         
         .gt-post-content code {
-          background: RGBA(106,197,239,0.2)!important;
+          background: RGBA(245,186,178,0.14)!important;
         }
         
         input::placeholder {
@@ -1917,7 +1917,7 @@ code::-webkit-scrollbar-thumb:hover {
         
         .search-input {
           color: #5f6169!important;
-          background-color: #FFFFFF!important;
+          background-color: #ffffff!important;
         }
          
       :root {
