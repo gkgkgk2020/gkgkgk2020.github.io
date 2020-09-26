@@ -311,9 +311,13 @@ html {
   font-size: 58%;
 }
 body {
-  font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, opensans, Optima, 'Microsoft Yahei', sans-serif;
-  font-size: 16px;
-  letter-spacing: 1.0382px;
+  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif !important;
+  color: #34495e;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6rem;
+  letter-spacing: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 button {
   outline: none !important;
@@ -367,7 +371,10 @@ ul li {
   word-wrap: break-word;
 }
 .gt-post-content a {
-  transition: all 0.3s;
+  color: #42b983;
+  font-weight: 600;
+  padding: 0 2px;
+  text-decoration: none;
 }
 .gt-post-content img {
   display: block;
@@ -376,10 +383,8 @@ ul li {
   margin: 18px auto;
 }
 .gt-post-content p {
-  line-height: 1.725;
-  margin-bottom: 18px;
-  font-size: 16px;
-  letter-spacing: 1.0382px;
+  line-height: 1.6rem;
+  word-spacing: 0.05rem;
 }
 .gt-post-content pre {
   margin-bottom: 18px;
@@ -413,16 +418,6 @@ ul li {
   line-height: 1.725;
   margin-bottom: 16px;
 }
-.gt-post-content h1,
-.gt-post-content h2,
-.gt-post-content h3,
-.gt-post-content h4,
-.gt-post-content h5,
-.gt-post-content h6 {
-  margin-bottom: 18px;
-  padding-top: 14px;
-  font-weight: bold;
-}
 .gt-post-content h1 {
   font-size: 28px;
 }
@@ -440,6 +435,27 @@ ul li {
 }
 .gt-post-content h6 {
   font-size: 14px;
+}
+.gt-post-content h1,
+.gt-post-content h2,
+.gt-post-content h3,
+.gt-post-content h4,
+.gt-post-content h5,
+.gt-post-content h6 {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  cursor: text;
+}
+.gt-post-content h1:hover a.anchor,
+.gt-post-content h2:hover a.anchor,
+.gt-post-content h3:hover a.anchor,
+.gt-post-content h4:hover a.anchor,
+.gt-post-content h5:hover a.anchor,
+.gt-post-content h6:hover a.anchor {
+  text-decoration: none;
 }
 .gt-post-content p code,
 .gt-post-content li code {
@@ -1821,103 +1837,155 @@ code::-webkit-scrollbar-thumb:hover {
 .katex .mtable .col-align-r > .vlist {
   text-align: right;
 }
+h2 a,
+h3 a {
+  color: #34495e;
+}
+h1 {
+  padding-bottom: 0.4rem;
+  font-size: 2.2rem;
+  line-height: 1.3;
+}
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.225;
+  margin: 35px 0 15px;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.43;
+  margin: 20px 0 7px;
+}
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 1rem;
+  color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table {
+  margin: 0.8em 0;
+}
+li > ol,
+li > ul {
+  margin: 0 0;
+}
+hr {
+  height: 2px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+  overflow: hidden;
+  box-sizing: content-box;
+}
 
         .gt-bg-theme-color-first {
-          background: #ffffff!important;
+          background: #16202f!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #ffffff!important;
+          background: #1c283b!important;
         }
         
         .gt-bg-content-color-first {
-          background: #5f6169!important;
+          background: #92a5b9!important;
         }
         
         .gt-bg-content-color-second {
-          background: #999fa7!important;
+          background: #738496!important;
         }
         
         .gt-bg-accent-color-first {
-          background: #f5bab2!important;
+          background: #50a1ff!important;
         }
         
         .gt-bg-accent-color-second {
-          background: RGBA(245,186,178,0.14)!important;
+          background: RGBA(80,161,255,0.2)!important;
         }
         
         .gt-c-theme-color-first {
-          color: #ffffff!important;
+          color: #16202f!important;
         }
         
         .gt-c-theme-color-second {
-          color: #ffffff!important;
+          color: #1c283b!important;
         }
         
         .gt-c-content-color-first {
-          color: #5f6169!important;
+          color: #92a5b9!important;
         }
         
         .gt-c-content-color-second {
-          color: #999fa7!important;
+          color: #738496!important;
         }
         
         .gt-c-accent-color-first {
-          color: #f5bab2!important;
+          color: #50a1ff!important;
         }
         
         .gt-c-accent-color-second {
-          color: RGBA(245,186,178,0.14)!important;
+          color: RGBA(80,161,255,0.2)!important;
         }
         
         body {
-          color: #5f6169!important;
+          color: #92a5b9!important;
         }
         
         a {
-          color: #f5bab2!important;
+          color: #50a1ff!important;
         }
         
         .post-content h1 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #92a5b9!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(80,161,255,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #92a5b9!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(80,161,255,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #5f6169!important;
+          color: #92a5b9!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(80,161,255,0.4) 0)!important;
         }
         
         .gt-post-content a {
-          color: #f5bab2!important;
+          color: #50a1ff!important;
         }
         
         .gt-post-content blockquote {
-          background: RGBA(245,186,178,0.14)!important;
-          border-color: #f5bab2!important;
+          background: RGBA(80,161,255,0.2)!important;
+          border-color: #50a1ff!important;
         }
         
         .gt-post-content code {
-          background: RGBA(245,186,178,0.14)!important;
+          background: RGBA(80,161,255,0.2)!important;
         }
         
         input::placeholder {
-          color: #999fa7!important;
+          color: #738496!important;
         }
         
         .search-input {
-          color: #5f6169!important;
-          background-color: #ffffff!important;
+          color: #92a5b9!important;
+          background-color: #1c283b!important;
         }
          
       :root {
