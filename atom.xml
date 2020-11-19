@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gkgkgk2020.github.io</id>
     <title></title>
-    <updated>2020-09-26T17:27:50.486Z</updated>
+    <updated>2020-11-19T13:56:29.770Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gkgkgk2020.github.io"/>
     <link rel="self" href="https://gkgkgk2020.github.io/atom.xml"/>
@@ -17,117 +17,6 @@
         <updated>2020-09-26T17:10:55.000Z</updated>
         <content type="html"><![CDATA[<p>我对于非洲的认知：黑非洲，黑人历史，贫穷，战争，农耕文明<br>
 https://lnk0.com/easylink/EL8wloYh</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Markdown 测试文章]]></title>
-        <id>https://gkgkgk2020.github.io/post/markdown-ce-shi-wen-zhang/</id>
-        <link href="https://gkgkgk2020.github.io/post/markdown-ce-shi-wen-zhang/">
-        </link>
-        <updated>2020-09-26T17:04:59.000Z</updated>
-        <content type="html"><![CDATA[<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
-<blockquote>
-<p>此篇仅为测试渲染效果，非教程</p>
-</blockquote>
-<h2 id="标题">标题</h2>
-<h3 id="三级标题显示">三级标题显示</h3>
-<h2 id="普通段落">普通段落</h2>
-<p>金樽清酒斗十千， 玉盘珍羞直万钱。停杯投箸不能食， 拔剑四顾心茫然。欲渡黄河冰塞川， 将登太行雪满山。闲来垂钓碧溪上， 忽复乘舟梦日边。行路难，行路难， 多歧路，今安在？长风破浪会有时， 直挂云帆济沧海。</p>
-<h2 id="有序列表">有序列表</h2>
-<ol>
-<li>第一项内容</li>
-<li>第二项内容</li>
-<li>第三项内容，带<code>code</code>文本</li>
-</ol>
-<h2 id="无序列表">无序列表</h2>
-<ul>
-<li>第一项内容</li>
-<li>第二项内容</li>
-<li>第三项内容，带 <code>code</code>文本</li>
-</ul>
-<h2 id="其他内容">其他内容</h2>
-<p>这是去往<a href="https://gridea.dev">Gridea 主页链接</a>，这是一个行内代码<code>console.log('Hello World')</code>，这是<strong>强调文本</strong>，这是_斜体文本_，这是删除文本，下面是分割线</p>
-<hr>
-<p>下面是图片：</p>
-<figure data-type="image" tabindex="1"><img src="https://images.unsplash.com/photo-1563362375-684f5a29d125?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" alt="图片描述" loading="lazy"></figure>
-<p>另一张设置宽高（200x120）的图片：</p>
-<figure data-type="image" tabindex="2"><img src="https://images.unsplash.com/photo-1563373262-1e074f7c30a0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1300&amp;q=80" alt="设置固定宽高的图片，200 x 120" loading="lazy"></figure>
-<h2 id="块代码">块代码</h2>
-<pre><code>function sayHello() {
-	console.log(&quot;Hello Wolrd&quot;);
-}
-</code></pre>
-<h2 id="表格">表格</h2>
-<p>一个普通标题</p>
-<p>一个普通标题</p>
-<p>一个普通标题</p>
-<p>短文本</p>
-<p>中等文本</p>
-<p>稍微长一点的文本</p>
-<p>稍微长一点的文本</p>
-<p>短文本</p>
-<p>中等文本</p>
-<p>左对齐标题</p>
-<p>右对齐标题</p>
-<p>居中对齐标题</p>
-<p>短文本</p>
-<p>中等文本</p>
-<p>稍微长一点的文本</p>
-<p>稍微长一点的文本</p>
-<p>短文本</p>
-<p>中等文本</p>
-<h2 id="任务列表">任务列表</h2>
-<ul>
-<li>第一项任务</li>
-<li>第二项任务</li>
-<li>第三项任务</li>
-<li>第四项任务</li>
-</ul>
-<h2 id="加强功能">加强功能</h2>
-<ul>
-<li>KaTeX 行内公式3x−1+(1+x)2\sqrt{3x-1}+(1+x)^23x−1​+(1+x)2</li>
-<li>KaTeX 块级公式</li>
-</ul>
-<p>∇×B⃗− 1c ∂E⃗∂t=4πcj⃗∇⋅E⃗=4πρ∇×E⃗ + 1c ∂B⃗∂t=0⃗∇⋅B⃗=0\begin{array}{c} \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\ \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\ \nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{array}∇×B−c1​∂t∂E​∇×E+c1​∂t∂B​∇⋅B​=c4π​j​∇⋅E=0=0​=4πρ</p>
-<ul>
-<li>高亮文本示例高亮文本</li>
-<li>29th</li>
-<li>下面是缩略语示例</li>
-</ul>
-<p>The HTML specification</p>
-<ul>
-<li>下面是 footnote 示例</li>
-</ul>
-<p>Here is a footnote reference,<a href="#fn1">[1]</a> and another.<a href="#fn2">[2]</a></p>
-<p>文章内目录示例：</p>
-<ul>
-<li>
-<ul>
-<li><a href="#%E6%A0%87%E9%A2%98">标题</a>
-<ul>
-<li><a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98%E6%98%BE%E7%A4%BA">三级标题显示</a></li>
-</ul>
-</li>
-<li><a href="#%E6%99%AE%E9%80%9A%E6%AE%B5%E8%90%BD">普通段落</a></li>
-<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
-<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
-<li><a href="#%E5%85%B6%E4%BB%96%E5%86%85%E5%AE%B9">其他内容</a></li>
-<li><a href="#%E5%9D%97%E4%BB%A3%E7%A0%81">块代码</a></li>
-<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
-<li><a href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8">任务列表</a></li>
-<li><a href="#%E5%8A%A0%E5%BC%BA%E5%8A%9F%E8%83%BD">加强功能</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<ol>
-<li>
-<p>Here is the footnote. <a href="#fnref1">↩︎</a></p>
-</li>
-<li>
-<p>Here's one with multiple blocks. <a href="#fnref2">↩︎</a></p>
-</li>
-</ol>
 ]]></content>
     </entry>
     <entry>
